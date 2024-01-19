@@ -1,0 +1,26 @@
+.wrap {
+  margin-top: 8px;
+  display: flex;
+  gap: 8px;
+}
+
+.square {
+  border: 1px solid hsl(0, 0%, 24.3%);
+  background: hsl(0, 0%, 15.8%);
+  width: 120px;
+  aspect-ratio: 1;
+  border-radius: 8px;
+}
+
+.active {
+  border: 1px solid hsl(208, 100%, 47.3%);
+  background: hsl(206, 100%, 50%);
+  width: 120px;
+  height: 120px;
+  border-radius: 8px;
+  transition: width 1.2s ease-out;
+}
+
+.toggled {
+  width: 702px;
+}

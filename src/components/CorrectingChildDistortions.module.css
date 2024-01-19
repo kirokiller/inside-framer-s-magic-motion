@@ -1,0 +1,15 @@
+.wrapper {
+  margin-top: 8px;
+  display: flex;
+}
+
+.motion {
+  border: 1px solid hsl(208, 100%, 47.3%);
+  background: hsl(206, 100%, 30%);
+  width: 120px;
+  aspect-ratio: 1;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
